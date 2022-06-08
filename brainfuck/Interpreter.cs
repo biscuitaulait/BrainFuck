@@ -1,10 +1,10 @@
-using System;
+﻿using System;
 
 namespace BrainFuck
 {
     class Interpreter
     {
-        public void BuildAndRun(string code)
+        public void Run(string code)
         {
             char[] memory = new char[30000];
             int pointer = 0;
